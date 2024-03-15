@@ -6,7 +6,7 @@ namespace WebSharp
     {
         public static async Task Main()
         {
-            await WebSharpServer.CreateAsync("127.0.0.1", 9999);
+            var server = await WebSharpServer.CreateAsync("127.0.0.1", 9999);
         }
     }
 }
